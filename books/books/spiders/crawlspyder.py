@@ -75,5 +75,4 @@ class SpiderSpider(CrawlSpider):
             book["tax"] = tax
             yield book
         else:
-
             print(response.url)
